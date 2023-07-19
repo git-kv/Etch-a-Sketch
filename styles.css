@@ -6,13 +6,28 @@
 body {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .grid {
     display: flex;
     flex-wrap: wrap;
+    border-style: solid;
 }
 
-.highlight-on {
-    background-color: red;
+.title-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.title {
+    font-size: 52px;
+    font-weight: bold;
+}
+
+.title-text {
+    margin: 25px 0px 25px 0px;
 }
