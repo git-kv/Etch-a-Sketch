@@ -101,4 +101,16 @@ applyCustomButton.addEventListener('click', () => {
     createGrid(customSize);
 });
 
+resetButton.addEventListener('click', () => {
+    largeSizeBtn.classList.remove("highlight-on");
+    mediumSizeBtn.classList.remove("highlight-on");
+    smallSizeBtn.classList.remove("highlight-on");
+    rainbowColorButton.classList.remove("highlight-on");
+    blackColorButton.classList.remove("highlight-on");
+    smallSizeBtn.classList.add("highlight-on");
+    blackColorButton.classList.add("highlight-on");
+    gridSpace.textContent = '';
+    createGrid(DEFAULT_GRID_SIZE);
+});
+
 createGrid(DEFAULT_GRID_SIZE);
