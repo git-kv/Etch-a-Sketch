@@ -52,6 +52,7 @@ button {
     height: 50px;
     text-align: center;
     margin: 10px;
+    border-radius: 15px;
 }
 
 .footer ul {
@@ -61,4 +62,10 @@ button {
 
 .footer {
     margin-top: auto;
+}
+
+.highlight-on {
+    border-style: solid;
+    border-color: gold;
+    border-width: 5px;
 }
