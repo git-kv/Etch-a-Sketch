@@ -57,5 +57,8 @@ button {
 .footer ul {
     display: flex;
     justify-content: space-between;
+}
+
+.footer {
     margin-top: auto;
 }
