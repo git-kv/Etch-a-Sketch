@@ -60,8 +60,16 @@ button {
     justify-content: space-between;
 }
 
+a, li {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
 .footer {
     margin-top: auto;
+    padding: 15px;
+    background-color: darkgrey;
 }
 
 .highlight-on {
